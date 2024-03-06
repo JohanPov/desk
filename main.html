@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disculpas</title>
+<style>
+    body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    #neon-text {
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Arial', sans-serif;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+    }
+
+    #gif-stitch {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #button {
+        background-color: #0ff;
+        color: #000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div id="neon-text">Disculpame por lo de ayer, prometo no dejarnos ponernos malos de ahora y adelante</div>
+<img id="gif-stitch" src="tenor.gif" alt="Stitch GIF">
+<button id="button" onclick="redirectToIndex()">Presiona aqui preciosa, espero te guste</button>
+
+<script>
+    function redirectToIndex() {
+        window.location.href = "index.html";
+    }
+</script>
+
+</body>
+</html>
